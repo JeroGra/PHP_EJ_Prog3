@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div class="container">
+            <form method="post" action="nexo_poo_foto.php" enctype="multipart/form-data">
+                <p>Opcion</p>
+                <select name="tipoEjemplo">
+                    <option value="agregar">Agregar</option>
+                    <option value="listar">Listar</option>
+                    <option value="redirigir">Redirigir</option>
+                    <option value="eliminar">Eliminar</option>
+                </select>
+                <p>Legajo<input type="text" name="legajo" /></p>
+                <p>Apellido<input type="text" name="apellido" /></p>
+                <p>Nombre<input type="text" name="nombre" /></p>
+                <p>Imagen<input type="file" name="archivo" /></p> 
+                <p><input type="submit" /></p>
+            </form>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <title>Batallas Esquizo</title> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">   
+        <link rel="stylesheet" type="text/css" href="estilo.css">		
+    </head>
+    <body>
+            <form action="./inicio.php" method="POST" id="frmInicio" enctype="multipart/form-data">
+                <ul>
+                    <h2>INICIO DE SECION</h2>
+                    <li>
+                        <label for ="nick" aria-required="true">Nick Name</label>
+                        <input type ="text" id="nick" name="nickName">
+                    </li>
+                    <li>
+                        <label for ="contra" aria-required="true">Contrasenia</label>
+                        <input type ="text" id="contra" name="contrasenia">
+                    </li>
+                    <li class="button">
+                        <button type="submit">INICIAR</button>
+                    </li>
+                </ul>
+            </form>
+            <form action="./registro.php" method="POST" id="frmRegistro" enctype="multipart/form-data">
+                <ul>
+                    <h3>- O -</h3>
+                    <li class="button">
+                        <button type="submit">REGISTRARCE</button>
+                    </li>
+                </ul>
+            </form>
+    </body>
+</html>
